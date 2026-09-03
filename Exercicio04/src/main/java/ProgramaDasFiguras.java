@@ -14,9 +14,5 @@ public class ProgramaDasFiguras {
 
         double areaTotal = gerente.calculaAreaTotalDeFiguras();
         System.out.println("Área total das figuras: " + areaTotal);
-
-        // Extra: mostra a maior area cadastrada
-        double maiorArea = gerente.getMaiorAreaDeFigura();
-        System.out.println("Maior área entre as figuras: " + maiorArea);
     }
 }
